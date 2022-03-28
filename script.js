@@ -1,16 +1,3 @@
-// Element References
-var passwordLength = document.querySelector("#password-length");
-var lowerCase = document.querySelector("#lower-case");
-var upperCase = document.querySelector("#uper-case");
-var numeric = document.querySelector("#numeric");
-var specialCharacters = document.querySelector("#special-characters");
-
-//Character sets
-var lowerSet = "abcdefghijklmnopqrstuvwxyz";
-var upperSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var numericSet = "0123456789";
-var specialSet = ""` !"#$%&'()*+,-./:;<=>?@^_{|}~`;
-
 function generatePassword() {
     var passwordLength = window.prompt(
       "Please Designate Password Length Between 8 to 12 Characters"
