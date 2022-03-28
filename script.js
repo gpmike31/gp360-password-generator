@@ -47,11 +47,11 @@ function generatePassword() {
       return retValue;
     } else {
       window.alert(
-        "You must type 'yes' to a minimum of one of the four options! for security purposes"
+        "Please choose between 1 to 12 characters for password length"
       );
     }
   } else {
-    window.alert("Please choose a number between 8 and 12");
+    window.alert("Password length must be between 8 to 12 characters and you must type 'yes' to all availiable options for security purposes");
   }
   return "Please try again!";
 }
